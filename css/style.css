@@ -64,6 +64,8 @@
 .ban {position: relative; padding: 24px 0 20px;}
 .ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background: url(../img/icon.png) no-repeat -150px 0;}
 .ban a.next {position: absolute; right: -80px; top: 60px; width: 43px; height: 43px; background: url(../img/icon.png) no-repeat -150px -43px;}
+.ban a.prev:hover {background-position: -193px 0;}
+.ban a.next:hover {background-position: -193px -43px;}
 .ban ul {overflow: hidden;}
 .ban ul li {float: left; width: 330px;}
 .ban ul li:last-child {text-align: right;} /* ie9 부터 적용 */
